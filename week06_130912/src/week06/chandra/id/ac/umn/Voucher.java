@@ -12,6 +12,22 @@ public class Voucher extends Barang {
 		
 	}
 	
+	public double getPajak() {
+		return pajak;
+	}
+
+	public void setPajak(double pajak) {
+		this.pajak = pajak;
+	}
+
+	public double getHargaJual() {
+		return hargaJual;
+	}
+
+	public void setHargaJual(double hargaJual) {
+		this.hargaJual = hargaJual;
+	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
