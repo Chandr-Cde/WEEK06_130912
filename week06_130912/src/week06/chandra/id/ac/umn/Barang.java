@@ -44,7 +44,12 @@ public class Barang {
 	public void setStok(int stok) {
 		this.stok = stok;
 	}
-
+	
+	public void minusStock(int jml) {
+		if(this.stok >= jml) {
+			this.stok -= jml;
+		}
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
